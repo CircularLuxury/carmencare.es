@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARMEN CARE - Luxury Handbag Repair</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Insert favicon.png -->
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon.png">
+
+    <style>
+        /* Use source sans 3 */
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap');
+        body {
+            font-family: 'Source Sans 3', sans-serif;
+        }
+        /* Custom CSS (optional - for specific tweaks) */
+        .hero-section {
+            background-image: url('https://images.unsplash.com/photo-1617196009233-c1c9126b67e4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Replace with your own image */
+            background-size: cover;
+            background-position: center;
+
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header, section {
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Hero Section -->
+    <header class="hero-section py-20 text-white text-center relative">
+        <video class="absolute top-0 right-0 left-0 ml-auto w-full h-full object-cover" autoplay poster="./res/landingVidPoster.jpg" muted loop playsinline>
+            <source src="./res/landingVid.mp4" type="video/mp4">
+        </video>
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <div class="container mx-auto relative z-10">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">CARMEN CARE</h1>
+            <p class="text-lg md:text-xl mb-8">Expert Repair for Your Cherished Luxury Handbags</p>
+            <a href="#" class="bg-white text-black py-3 px-6 rounded-full font-semibold hover:bg-gray-200 transition-colors duration-300">Scan your garment & accessory</a>
+        </div>
+    </header>
+
+    <!-- Process Section -->
+    <section class="bg-white py-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-center text-gray-800 mb-8">Our Seamless Repair Process</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- Step 1 -->
+                <div class="text-center p-6 border rounded-lg shadow-md">
+                    <img src="./res/Gemini_Generated_Image_bude8sbude8sbude.jpeg" alt="Scan Icon" class="mx-auto h-32 mb-4">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2">1. Scan & Upload</h3>
+                    <p class="text-gray-600">Quickly scan your handbag and upload photos to receive a preliminary invoice.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="text-center p-6 border rounded-lg shadow-md">
+                    <img src="./res/Gemini_Generated_Image_8oj00y8oj00y8oj0.jpeg" alt="Box Icon" class="mx-auto h-32 mb-4">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2">2. We'll pick it up</h3>
+                    <p class="text-gray-600">We'll send a courier and complimentary foldable box to your doorstep to pick it and safely send it for repair in the moment.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="text-center p-6 border rounded-lg shadow-md">
+                    <img src="./res/Gemini_Generated_Image_4p3r694p3r694p3r.jpeg" alt="App Icon" class="mx-auto h-32 mb-4">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2">3. Track and Receive</h3>
+                    <p class="text-gray-600">Follow the repair progress through real-time updates on our dedicated app.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h2 class="text-3xl font-semibold text-gray-800 mb-4">Why Choose Carmen Care?</h2>
+                    <p class="text-gray-700 mb-4">We understand the value and sentimentality attached to your luxury handbags. Our team of skilled artisans uses premium materials and time-tested techniques to restore your bags to their former glory.</p>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Expert craftsmanship</li>
+                        <li>Premium materials</li>
+                        <li>Transparent pricing</li>
+                        <li>Convenient process</li>
+                        <li>Dedicated customer support</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1556228453-efb201978315?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Handbag Repair" class="rounded-lg shadow-md">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 text-center">
+        <p>© 2025 CARMEN CARE. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
